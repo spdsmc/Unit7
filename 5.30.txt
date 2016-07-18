@@ -1,0 +1,3 @@
+(a) The expression new Date() produces a Date object with the current date and time.
+(b) The expression new Date(2009, 0, 20) produces a date Object corresponding to midnight January 20, 2009 in the current time zone. This is because the three numbers specify year, month, day and Javascript counts months from 0 (January) to 11 (December).
+(c) If d1 and d2 refer to date objects, the expression d1.valueOf() - d2.valueOf() produces the number of milliseconds from the Date objects d1 to d2. This is because the method valueOf() returns the number of milliseconds since midnight January 1, 1970 UTC.

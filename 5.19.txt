@@ -1,0 +1,1 @@
+The given script alerts "Hello", then assigns the value 2 to the variable alert. This overrides the alert function because alert is not a reserved word. When the third line attempts to use the value stored in alert as a function, the Chrome Console reports an Uncaught TypeError indicating alert is not a function.
